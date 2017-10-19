@@ -1,7 +1,7 @@
 # My Homepage
 
 This repo contains my homepage. By now it has to be deployed via SFTP, will be changed soon i hope.
-You can find the current homepage at [pinguin501.de](www.pinguin501.de).
+You can find the current homepage at [pinguin501.de](http://pinguin501.de).
 
 ## About
 
@@ -42,3 +42,4 @@ Well, the content is missing by now  ... and components ... and the redux part .
 ## TBD
 
 - Linter?
+- Host this page at gitHub pages?
