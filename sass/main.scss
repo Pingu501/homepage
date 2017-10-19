@@ -1,7 +1,15 @@
+@import "variables";
+
+@import "atoms/link";
+@import "atoms/menuEntry";
+@import "atoms/typografie";
+
+@import "organisms/application";
+@import "organisms/content";
+@import "organisms/header";
+
 html,
 body {
   margin: 0;
   padding: 0;
-
-  color: green;
 }

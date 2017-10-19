@@ -1,0 +1,10 @@
+a {
+  color: $color-grey-dark;
+  transition: color 200ms;
+
+  text-decoration: none;
+
+  &:hover {
+    color: $color-grey-light;
+  }
+}
