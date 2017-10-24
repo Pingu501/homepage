@@ -1,0 +1,13 @@
+table {
+  border: none;
+  border-collapse: collapse;
+}
+
+tr {
+}
+
+td {
+  padding: $spacing-medium;
+  vertical-align: top;
+  border-bottom: 1px solid $color-grey-light;
+}
