@@ -2,13 +2,13 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const TableRow = props => {
-  let valueRow = '';
+  let valueRow = ''
   switch (props.data.type) {
     case 'link':
       valueRow = <a href={props.data.link} target="_blank">{props.data.value}</a>
       break
     case 'multi-row':
-      valueRow = props.data.value.split('\n').map((e,i) => {
+      valueRow = props.data.value.split('\n').map((e, i) => {
         return <div key={i}>{e}</div>
       })
       break

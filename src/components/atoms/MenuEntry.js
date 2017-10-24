@@ -1,16 +1,16 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
+import PropTypes from 'prop-types'
 
 const MenuEntry = props => {
-    return (
-        <div className="menu-entry">
-            <a href="#">{props.name}</a>
-        </div>
-    );
-};
+  return (
+    <div className="menu-entry">
+      <a href="#">{props.name}</a>
+    </div>
+  )
+}
 
 MenuEntry.propTypes = {
-    name: PropTypes.string.isRequired
-};
+  name: PropTypes.string.isRequired
+}
 
-export default MenuEntry;
+export default MenuEntry
