@@ -5,7 +5,8 @@ const TableRow = props => {
   let valueRow = ''
   switch (props.data.type) {
     case 'link':
-      valueRow = <a href={props.data.link} target="_blank">{props.data.value}</a>
+      valueRow = <a href={props.data.link}
+                    target={props.data.link.indexOf('mailto:') === -1 ? '_blank' : '' }>{props.data.value}</a>
       break
     case 'multi-row':
       valueRow = props.data.value.split('\n').map((e, i) => {

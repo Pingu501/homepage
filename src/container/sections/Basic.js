@@ -15,7 +15,7 @@ const Basic = () => {
       {key: 'City of Birth', value: 'Dresden'},
       {key: 'Address', type: 'multi-row', value: 'Lenbachstrasse 5\n01219 Dresden\nGermany'},
       {key: 'Mobile No.', value: '+49 174 2179506'},
-      {key: 'Mail', value: 'alex.hesse@icloud.com'},
+      {key: 'Mail', type: 'link', value: 'alex.hesse@icloud.com', link: 'mailto:alex.hesse@icloud.com'},
       {key: 'GitHub', type: 'link', value: '/pingu501', link: 'https://github.com/pingu501'}
     ]}/>
   )
