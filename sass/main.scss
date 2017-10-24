@@ -1,5 +1,6 @@
 @import "variables";
 
+@import "atoms/image";
 @import "atoms/link";
 @import "atoms/menuEntry";
 @import "atoms/table";
@@ -8,6 +9,7 @@
 @import "organisms/application";
 @import "organisms/content";
 @import "organisms/header";
+@import "organisms/twoColumn";
 
 html,
 body {
