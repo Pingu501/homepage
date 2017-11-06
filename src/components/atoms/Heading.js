@@ -16,7 +16,7 @@ const Heading = props => {
 
 Heading.propTypes = {
   children: PropTypes.any.isRequired,
-  size: PropTypes.oneOf(['small'])
+  size: PropTypes.oneOf(['small', 'medium', 'large'])
 }
 
 export default Heading

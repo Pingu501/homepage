@@ -1,37 +1,19 @@
 import React from 'react'
-
-import Table from '../../components/organisms/Table'
-import TwoColumn from '../../components/organisms/TwoColumn'
-import Image from '../../components/atoms/Image'
-
-import myFace from '../../images/Cody.JPG'
+import Heading from '../../components/atoms/Heading'
 
 const Basic = () => {
-
-  const columnLeft = (
-    <Table rows={[
-      {key: 'Name', value: 'Alexander Hesse'},
-      {key: 'Day of Birth', value: '20.11.1996'},
-      {key: 'City of Birth', value: 'Dresden'},
-      {key: 'Address', type: 'multi-row', value: 'Lenbachstrasse 5\n01219 Dresden\nGermany'},
-      {key: 'Mobile No.', value: '+49 174 2179506'},
-      {key: 'Mail', type: 'link', value: 'alex.hesse@icloud.com', link: 'mailto:alex.hesse@icloud.com'},
-      {key: 'GitHub', type: 'link', value: '/pingu501', link: 'https://github.com/pingu501'}
-    ]}/>
-  )
-
-  const columnRight = (
-    <Image image={myFace}/>
-  )
-
   return (
     <div>
-      <h1>Hey, my name is Alex</h1>
+      <Heading size="large">Hey, my name is Alex</Heading>
       <p>
         and this is my homepage.
       </p>
 
-      <TwoColumn left={columnLeft} right={columnRight}/>
+      <p>
+        I was born on the 20th of november 1996 in Dresden/Saxony/Germany. Currently I'm studying computer science at
+        the
+        TU Dresden and hopefully will get my diploma in 2020 ... way too long to go, but still having fun there! :)
+      </p>
     </div>
   )
 }

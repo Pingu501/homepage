@@ -1,8 +1,27 @@
 * {
   color: $color-grey-medium;
   font-family: Lato, SansSerif, serif;
+  line-height: 1.5em;
 }
 
 .text--right {
   text-align: right;
+}
+
+.heading {
+  margin-top: $spacing-medium;
+  margin-bottom: $spacing-small;
+  font-weight: bold;
+}
+
+.heading--large {
+  font-size: 32px;
+}
+
+.heading--medium {
+  font-size: 28px;
+}
+
+.heading--small {
+  font-size: 24px;
 }

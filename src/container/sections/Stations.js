@@ -20,4 +20,4 @@ const Stations = () => {
   )
 }
 
-export default Stations
+export default Stations;
