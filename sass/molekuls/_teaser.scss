@@ -1,0 +1,26 @@
+.teaser__wrapper {
+  height: $teaser-height;
+  margin: $spacing-large 0;
+}
+
+.teaser {
+  position: absolute;
+
+  left: 0;
+  right: 0;
+
+  width: 100%;
+  height: $teaser-height;
+
+  background-attachment: fixed;
+}
+
+.teaser__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  color: $color-grey-darker;
+  font-size: 2em;
+}

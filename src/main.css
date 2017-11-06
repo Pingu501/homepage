@@ -28,11 +28,31 @@ td {
 .text--right {
   text-align: right; }
 
+.teaser__wrapper {
+  height: 500px;
+  margin: 24px 0; }
+
+.teaser {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 500px;
+  background-attachment: fixed; }
+
+.teaser__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #3c3c3c;
+  font-size: 2em; }
+
 .application {
   margin-top: 120px; }
 
 .content {
-  margin: 0 auto;
+  margin: 0 auto 2400px;
   padding: 0 12px;
   width: 100%;
   max-width: 800px; }
@@ -43,6 +63,7 @@ header {
   justify-content: center;
   position: fixed;
   top: 0;
+  z-index: 8000;
   padding: 12px 0;
   width: 100%;
   height: 60px;
