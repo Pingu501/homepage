@@ -25,4 +25,9 @@
 
   color: $color-grey-darker;
   font-size: 2em;
+
+  p {
+    padding: $spacing-small;
+    background-color: whitesmoke;
+  }
 }

@@ -1,6 +1,13 @@
 img {
+  padding: 12px;
   max-width: 100%;
   height: auto; }
+
+.image--floating {
+  float: right;
+  max-width: 33%; }
+  .image--floating::after {
+    clear: both; }
 
 a {
   color: darkgray;
@@ -38,10 +45,12 @@ td {
   font-size: 32px; }
 
 .heading--medium {
-  font-size: 28px; }
+  margin-top: 24px;
+  border-bottom: 2px solid lightgray;
+  font-size: 24px; }
 
 .heading--small {
-  font-size: 24px; }
+  font-size: 20px; }
 
 .teaser__wrapper {
   height: 500px;
@@ -64,12 +73,15 @@ td {
   height: 100%;
   color: #3c3c3c;
   font-size: 2em; }
+  .teaser__content p {
+    padding: 6px;
+    background-color: whitesmoke; }
 
 .application {
-  margin-top: 120px; }
+  margin-top: 60px; }
 
 .content {
-  margin: 0 auto 2400px;
+  margin: 0 auto 24px;
   padding: 0 12px;
   width: 100%;
   max-width: 1200px; }

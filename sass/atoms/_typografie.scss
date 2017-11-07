@@ -19,9 +19,11 @@
 }
 
 .heading--medium {
-  font-size: 28px;
+  margin-top: $spacing-large;
+  border-bottom: 2px solid $color-grey-light;
+  font-size: 24px;
 }
 
 .heading--small {
-  font-size: 24px;
+  font-size: 20px;
 }

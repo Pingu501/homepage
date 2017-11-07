@@ -1,4 +1,14 @@
 img {
+  padding: $spacing-medium;
   max-width: 100%;
   height: auto;
+}
+
+.image--floating {
+  float: right;
+  max-width: 33%;
+
+  &::after {
+    clear: both;
+  }
 }

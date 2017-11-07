@@ -1,5 +1,5 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
+import PropTypes from 'prop-types'
 
 const Teaser = props => {
 
@@ -10,9 +10,10 @@ const Teaser = props => {
   return (
     <div className="teaser__wrapper">
       <div className="teaser" style={backgroundImageStyle}>
-        <div className="teaser__content">
-          {props.text}
-        </div>
+
+        {props.text ? <div className="teaser__content">
+          <p>{props.text}</p>
+        </div> : ''}
       </div>
     </div>
   )
