@@ -2,6 +2,14 @@
   display: flex;
 
   > div {
-    width: 50%;
+    padding: $spacing-small;
+  }
+
+  .two-column__left {
+    width: 200px;
+  }
+
+  .two-column__right {
+    width: auto;
   }
 }

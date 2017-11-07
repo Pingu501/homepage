@@ -10,11 +10,11 @@ export default class TwoColumn extends React.PureComponent {
   render() {
     return (
       <div className="two-column">
-        <div>
+        <div className="two-column__left">
           {this.props.left}
         </div>
 
-        <div>
+        <div className="two-column__right">
           {this.props.right}
         </div>
       </div>

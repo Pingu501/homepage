@@ -7,7 +7,7 @@ const Paragraph = props => {
   const heading = props.heading ? <Heading size="small">{props.heading}</Heading> : null
 
   return (
-    <div>
+    <div className="paragraph">
       {heading}
       {props.children}
     </div>

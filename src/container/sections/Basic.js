@@ -1,10 +1,12 @@
 import React from 'react'
-import Teaser from '../../components/molekuls/Teaser';
+import Teaser from '../../components/molekuls/Teaser'
 import Image from '../../components/atoms/Image'
 import Heading from '../../components/atoms/Heading'
 
-import myFace from '../../images/MyFace.jpg';
-import dresden from '../../images/Dresden.jpg';
+import Social from '../../components/atoms/Social'
+
+import myFace from '../../images/MyFace.jpg'
+import dresden from '../../images/Dresden.jpg'
 
 const Basic = () => {
   return (
@@ -25,6 +27,13 @@ const Basic = () => {
         I'm planing to do an internship in 2018 (starting in september/october). If you are looking
         for some people working for you contact me!
       </p>
+
+      <div className="social-list">
+        <Social type="github"/>
+        <Social type="facebook"/>
+        <Social type="twitter"/>
+        <Social type="mail"/>
+      </div>
     </div>
   )
 }

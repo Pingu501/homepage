@@ -5,7 +5,7 @@ img {
 
 .image--floating {
   float: right;
-  max-width: 33%; }
+  max-width: 20%; }
   .image--floating::after {
     clear: both; }
 
@@ -51,6 +51,14 @@ td {
 
 .heading--small {
   font-size: 20px; }
+
+.paragraph {
+  margin: 12px 0; }
+
+.social-list {
+  display: flex; }
+  .social-list img {
+    width: 64px; }
 
 .teaser__wrapper {
   height: 500px;
@@ -106,7 +114,11 @@ nav {
 .two-column {
   display: flex; }
   .two-column > div {
-    width: 50%; }
+    padding: 6px; }
+  .two-column .two-column__left {
+    width: 200px; }
+  .two-column .two-column__right {
+    width: auto; }
 
 html,
 body {
