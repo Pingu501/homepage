@@ -1,0 +1,20 @@
+$contact-width: 300px;
+
+.contact {
+  padding: $spacing-medium;
+  width: $contact-width;
+  float: right;
+
+  img {
+    padding: 0;
+  }
+
+  .social-list {
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+
+    font-size: ($contact-width / 4) - 2 * $spacing-medium;
+  }
+}

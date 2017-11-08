@@ -22,8 +22,11 @@ const Link = props => {
 
 Link.propTypes = {
   destination: PropTypes.string.isRequired,
-  text: PropTypes.string.isRequired,
-  mail: PropTypes.string
+  text: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.object
+  ]).isRequired,
+  mail: PropTypes.bool
 }
 
 export default Link

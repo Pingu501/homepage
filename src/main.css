@@ -89,8 +89,17 @@ tr td {
     padding: 6px;
     background-color: whitesmoke; }
 
-.application {
-  margin-top: 60px; }
+.contact {
+  padding: 12px;
+  width: 300px;
+  float: right; }
+  .contact img {
+    padding: 0; }
+  .contact .social-list {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 51px; }
 
 .content {
   margin: 0 auto 24px;
