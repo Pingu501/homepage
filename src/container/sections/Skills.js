@@ -4,6 +4,7 @@ import Teaser from '../../components/molekuls/Teaser'
 
 import code from '../../images/Code.jpg'
 import Heading from '../../components/atoms/Heading'
+import Emoji from '../../components/atoms/Emoji'
 
 const Skills = () => {
   return (
@@ -35,7 +36,7 @@ const Skills = () => {
       Most of my projects are written in php.
 
       <p>
-        I tried myself in some smaller frameworks and my favorite is by far Neos/Flow to use the Neos CMS &lt;3
+        I tried myself in some smaller frameworks and my favorite is by far Neos/Flow to use the Neos CMS <Emoji emoji="♥️"/>
       </p>
 
       <Heading size="small">Java</Heading>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Paragraph from '../../components/molekuls/Paragraph'
+import Emoji from '../../components/atoms/Emoji'
 
 const Stations = () => {
 
@@ -39,7 +40,7 @@ const Stations = () => {
       After school I had 3 months of free time. <br/>
       I decided to do an internship at <a href="https://sandstorm.rocks">Sandstorm Media GmbH</a> here
       in Dresden. <br/>
-      Since then I'm part of their team and very happy there! &lt;3
+      Since then I'm part of their team and very happy there! <Emoji emoji="♥️"/>
     </div>
   )
 

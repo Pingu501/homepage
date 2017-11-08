@@ -4,6 +4,7 @@ import Paragraph from '../../components/molekuls/Paragraph'
 
 import tamburello from '../../images/Tamburello.jpg'
 import Link from '../../components/atoms/Link'
+import Emoji from '../../components/atoms/Emoji'
 
 const Hobbies = () => {
   return (
@@ -25,7 +26,7 @@ const Hobbies = () => {
       </Paragraph>
 
       <Paragraph heading="Music">
-        I <span role="img" aria-label="love">♥</span>️ music. Listening to it daily and also playing the guitar (learned it by myself)
+        I <Emoji emoji="♥️"/>️ music. Listening to it daily and also playing the guitar (learned it by myself)
       </Paragraph>
     </div>
   )
