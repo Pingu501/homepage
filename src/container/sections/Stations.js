@@ -1,6 +1,5 @@
 import React from 'react'
 import Paragraph from '../../components/molekuls/Paragraph'
-import TwoColumn from '../../components/organisms/TwoColumn'
 
 const Stations = () => {
 
@@ -64,10 +63,26 @@ const Stations = () => {
         nothing special happened...
       </Paragraph>
 
-      <TwoColumn left={elementaryLeft} right={elementaryRight}/>
-      <TwoColumn left={grammarLeft} right={grammarRight}/>
-      <TwoColumn left={sandstormLeft} right={sandstormRight}/>
-      <TwoColumn left={tuLeft} right={tuRight}/>
+      <table>
+        <tbody>
+          <tr>
+            <td>{elementaryLeft}</td>
+            <td>{elementaryRight}</td>
+          </tr>
+          <tr>
+            <td>{grammarLeft}</td>
+            <td>{grammarRight}</td>
+          </tr>
+          <tr>
+            <td>{sandstormLeft}</td>
+            <td>{sandstormRight}</td>
+          </tr>
+          <tr>
+            <td>{tuLeft}</td>
+            <td>{tuRight}</td>
+          </tr>
+        </tbody>
+      </table>
 
     </div>
   )

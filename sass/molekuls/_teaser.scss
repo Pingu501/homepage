@@ -1,5 +1,8 @@
 .teaser__wrapper {
   height: $teaser-height;
+  min-height: $teaser-height-min;
+  max-height: $teaser-height-max;
+
   margin: $spacing-large 0;
 }
 
@@ -10,11 +13,10 @@
   right: 0;
 
   width: 100%;
-  height: $teaser-height;
 
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
+  height: $teaser-height;
+  min-height: $teaser-height-min;
+  max-height: $teaser-height-max;
 }
 
 .react-parallax-content {

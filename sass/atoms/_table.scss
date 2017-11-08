@@ -4,10 +4,9 @@ table {
 }
 
 tr {
-}
-
-td {
-  padding: $spacing-medium;
-  vertical-align: top;
-  border-bottom: 1px solid $color-grey-light;
+  td {
+    padding: $spacing-medium;
+    vertical-align: top;
+    border-bottom: 1px solid $color-grey-light;
+  }
 }
