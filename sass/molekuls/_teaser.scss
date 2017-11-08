@@ -1,9 +1,6 @@
 .teaser__wrapper {
   height: $teaser-height;
-  min-height: $teaser-height-min;
-  max-height: $teaser-height-max;
-
-  margin: $spacing-large 0;
+  margin-bottom: $spacing-large;
 }
 
 .teaser {
@@ -15,12 +12,14 @@
   width: 100%;
 
   height: $teaser-height;
-  min-height: $teaser-height-min;
-  max-height: $teaser-height-max;
-}
 
-.react-parallax-content {
-  height: 100%;
+  img {
+    padding: 0;
+  }
+
+  .react-parallax-content {
+    height: 100%;
+  }
 }
 
 .teaser__content {

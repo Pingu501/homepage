@@ -1,6 +1,6 @@
 @import "variables";
-@import "functions";
 @import "mixins";
+@import "functions";
 
 @import "atoms/image";
 @import "atoms/link";
@@ -8,11 +8,10 @@
 @import "atoms/table";
 @import "atoms/typografie";
 
-@import "molekuls/social";
 @import "molekuls/teaser";
 
 @import "organisms/contact";
-@import "organisms/content";
+@import "molekuls/content";
 @import "organisms/header";
 
 html,

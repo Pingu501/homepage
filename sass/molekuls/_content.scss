@@ -1,0 +1,11 @@
+.content {
+  margin: 0 auto;
+
+  width: 100%;
+  max-width: $content-width;
+
+
+  @include mq(phone) {
+    padding: $spacing-medium;
+  }
+}

@@ -3,7 +3,7 @@ import Teaser from '../../components/molekuls/Teaser'
 import Heading from '../../components/atoms/Heading'
 
 import dresden from '../../images/Dresden.jpg'
-import Contact from '../../components/organisms/Contact'
+import Contact from '../../components/molekuls/Contact'
 
 const Basic = () => {
   return (

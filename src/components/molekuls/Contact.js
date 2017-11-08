@@ -1,5 +1,5 @@
 import React from 'react'
-import Icon from '../molekuls/Icon'
+import Icon from './Icon'
 import Image from '../atoms/Image'
 
 import myFace from '../../images/MyFace.jpg'
