@@ -5,7 +5,7 @@ import Heading from '../../components/atoms/Heading'
 
 import Social from '../../components/atoms/Social'
 
-import myFace from '../../images/Cody.jpg'
+import myFace from '../../images/MyFace.jpg'
 import dresden from '../../images/Dresden.jpg'
 
 const Basic = () => {
