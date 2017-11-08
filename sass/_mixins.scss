@@ -1,0 +1,7 @@
+@mixin mq($key) {
+  @if breakpoint($key) {
+    @media #{breakpoint($key)} {
+      @content;
+    }
+  }
+}

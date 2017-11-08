@@ -14,3 +14,8 @@ $color-grey-light: lightgray;
 $color-grey-medium: #AEAEAE;
 $color-grey-dark: darkgray;
 $color-grey-darker: #3c3c3c;
+
+$breakpoints: (
+        phone: '(max-width: 440px)',
+        desktop: '(min-width: 441px)'
+);

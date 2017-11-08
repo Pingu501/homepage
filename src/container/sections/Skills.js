@@ -110,8 +110,4 @@ const Skills = () => {
   )
 }
 
-const StarRating = props => {
-  return props.value
-}
-
 export default Skills

@@ -4,7 +4,11 @@ import classnames from 'classnames'
 
 const Image = props => {
 
-  const className = classnames({'image--floating': props.floating});
+  const className = classnames(
+    'image',
+    {'image--floating': props.floating},
+    {'image--logo': props.type === 'logo'}
+  )
 
   return (
     <img src={props.image} className={className} alt={props.alt}/>
@@ -14,7 +18,8 @@ const Image = props => {
 Image.propTypes = {
   image: PropTypes.any.isRequired,
   alt: PropTypes.string.isRequired,
-  floating: PropTypes.bool
+  floating: PropTypes.bool,
+  type: PropTypes.oneOf(['logo'])
 }
 
 export default Image

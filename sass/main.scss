@@ -1,4 +1,6 @@
 @import "variables";
+@import "functions";
+@import "mixins";
 
 @import "atoms/image";
 @import "atoms/link";
@@ -15,6 +17,9 @@
 
 html,
 body {
+  width: 100%;
+  height: 100%;
+
   margin: 0;
   padding: 0;
 }

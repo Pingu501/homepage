@@ -37,7 +37,7 @@ const Social = props => {
   return (
     <div className="social">
       <a href={link} target={props.type === 'mail' ? '' : '_blank'}>
-        <Image image={image} alt={props.type}/>
+        <Image image={image} alt={props.type} type="logo"/>
       </a>
     </div>
   )

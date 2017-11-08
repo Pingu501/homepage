@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 const MenuEntry = props => {
   return (
     <div className="menu-entry">
-      <a href="#">{props.name}</a>
+      {props.name}
     </div>
   )
 }
