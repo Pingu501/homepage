@@ -4,7 +4,7 @@
 }
 
 .teaser {
-  position: absolute;
+  position: absolute !important;
 
   left: 0;
   right: 0;
@@ -15,6 +15,10 @@
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+}
+
+.react-parallax-content {
+  height: 100%;
 }
 
 .teaser__content {

@@ -1,20 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { Parallax } from 'react-parallax'
 
 const Teaser = props => {
-
-  const backgroundImageStyle = {
-    backgroundImage: `url(${props.picture})`
-  }
-
   return (
     <div className="teaser__wrapper">
-      <div className="teaser" style={backgroundImageStyle}>
-
+      <Parallax bgImage={props.picture} strength={400} className="teaser">
         {props.text ? <div className="teaser__content">
           <p>{props.text}</p>
         </div> : ''}
-      </div>
+      </Parallax>
     </div>
   )
 }
@@ -24,4 +19,4 @@ Teaser.propTypes = {
   text: PropTypes.string
 }
 
-export default Teaser;
+export default Teaser
