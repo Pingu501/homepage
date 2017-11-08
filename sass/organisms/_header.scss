@@ -15,6 +15,13 @@ header {
 
   background-color: $color-grey-darker;
 
+  transition: all 200ms;
+
+  &.scrolled {
+    height: $header-height-scrolled;
+    opacity: .8;
+  }
+
   @include mq(mobile) {
     background-color: red;
   }
