@@ -3,6 +3,7 @@ import Teaser from '../../components/molekuls/Teaser'
 import Paragraph from '../../components/molekuls/Paragraph'
 
 import tamburello from '../../images/Tamburello.jpg'
+import Link from '../../components/atoms/Link'
 
 const Hobbies = () => {
   return (
@@ -12,8 +13,10 @@ const Hobbies = () => {
       <Paragraph heading="Tamburello">
         This is a very old sport coming from Italy. <br/>
         I'm an active member since 2009 with 3-4 trainings per week.
-        More <a href="https://tamburellodresden.de" target="_blank">here</a> or
-        at our <a href="https://tamburello-staging.dokku3.sandstorm-media.de" target="_blank">new site</a>
+        More here
+        <Link destination="https://tamburellodresden.de" text="here"/>
+        or at our
+        <Link destination="https://tamburello-staging.dokku3.sandstorm-media.de" text="new site"/>
       </Paragraph>
 
       <Paragraph heading="Coding">
@@ -22,7 +25,7 @@ const Hobbies = () => {
       </Paragraph>
 
       <Paragraph heading="Music">
-        I ♥️ music. Listening to it daily and also playing the guitar (learned it by myself)
+        I <span role="img" aria-label="love">♥</span>️ music. Listening to it daily and also playing the guitar (learned it by myself)
       </Paragraph>
     </div>
   )
