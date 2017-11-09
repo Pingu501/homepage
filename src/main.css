@@ -12,7 +12,7 @@ img {
 a {
   color: darkgray;
   transition: color 200ms;
-  text-decoration: none; }
+  text-decoration: underline; }
   a:hover {
     color: lightgray; }
 
@@ -40,6 +40,8 @@ tr td {
   margin-top: 12px;
   margin-bottom: 6px;
   font-weight: bold; }
+  .heading a {
+    text-decoration: none; }
 
 .heading--large {
   font-size: 32px; }
@@ -142,11 +144,14 @@ header {
 
 nav {
   display: flex;
+  padding: 0 12px;
   width: 100%;
   max-width: 1200px; }
   @media (max-width: 560px) {
     nav {
       justify-content: center; } }
+  nav a {
+    text-decoration: none; }
 
 html,
 body {

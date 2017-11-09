@@ -31,10 +31,17 @@ header {
 
 nav {
   display: flex;
+
+  padding: 0 $spacing-medium;
+
   width: 100%;
   max-width: $content-width;
 
   @include mq(phone) {
     justify-content: center;
+  }
+
+  a {
+    text-decoration: none;
   }
 }

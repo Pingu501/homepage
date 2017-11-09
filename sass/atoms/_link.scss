@@ -2,7 +2,7 @@ a {
   color: $color-grey-dark;
   transition: color 200ms;
 
-  text-decoration: none;
+  text-decoration: underline;
 
   &:hover {
     color: $color-grey-light;
