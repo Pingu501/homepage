@@ -8,7 +8,7 @@ import Emoji from '../../components/atoms/Emoji'
 
 const Skills = () => {
   return (
-    <div>
+    <div id="skills">
       <Teaser picture={code} text="My Skills"/>
 
       <p>

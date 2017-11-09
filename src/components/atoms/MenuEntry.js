@@ -2,9 +2,13 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const MenuEntry = props => {
+  const anker = '#' + props.name.toLowerCase()
+
   return (
     <div className="menu-entry">
-      {props.name}
+      <a href={anker}>
+        {props.name}
+      </a>
     </div>
   )
 }

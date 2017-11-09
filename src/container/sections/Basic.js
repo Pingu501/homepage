@@ -7,7 +7,7 @@ import Contact from '../../components/molekuls/Contact'
 
 const Basic = () => {
   return (
-    <div>
+    <div id="basic">
       <Teaser picture={dresden} text="Hey, my name is Alex"/>
 
       <Contact/>
