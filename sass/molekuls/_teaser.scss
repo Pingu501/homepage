@@ -1,10 +1,6 @@
 .teaser__wrapper {
   height: $teaser-height;
   margin-bottom: $spacing-large;
-
-  &:first-of-type {
-    height: 50vw;
-  }
 }
 
 .teaser {
@@ -16,10 +12,6 @@
   width: 100%;
 
   height: $teaser-height;
-
-  &:first-of-type {
-    height: 50vw;
-  }
 
   img {
     padding: 0;

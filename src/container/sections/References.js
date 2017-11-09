@@ -6,7 +6,7 @@ import Paragraph from '../../components/molekuls/Paragraph'
 
 const References = () => {
   return (
-    <div id="references">
+    <section id="references">
       <Teaser picture={references} text="References"/>
 
       <Paragraph heading="www.TamburelloDresden.de" headingIsLink={true}
@@ -49,7 +49,7 @@ const References = () => {
           From time to time I wrote some code in the Groovy backend
         </p>
       </Paragraph>
-    </div>
+    </section>
   )
 }
 

@@ -7,7 +7,7 @@ import Contact from '../../components/molekuls/Contact'
 
 const Basic = () => {
   return (
-    <div id="basic">
+    <section id="basic">
       <Teaser picture={dresden} text="Hey, my name is Alex"/>
 
       <Contact/>
@@ -24,7 +24,7 @@ const Basic = () => {
         I'm planing to do an internship in 2018 (starting in september/october). If you are looking
         for some people working for you contact me!
       </p>
-    </div>
+    </section>
   )
 }
 

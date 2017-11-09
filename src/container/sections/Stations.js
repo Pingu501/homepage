@@ -58,7 +58,7 @@ const Stations = () => {
   )
 
   return (
-    <div id="stations">
+    <section id="stations">
 
       <Paragraph heading="So far">
         nothing special happened...
@@ -85,7 +85,7 @@ const Stations = () => {
         </tbody>
       </table>
 
-    </div>
+    </section>
   )
 }
 

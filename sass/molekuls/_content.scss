@@ -4,8 +4,11 @@
   width: 100%;
   max-width: $content-width;
 
+  section {
+    margin-bottom: $spacing-large;
+  }
 
-  @include mq(phone) {
-    padding: $spacing-medium;
+  #stations {
+    padding-top: $header-height;
   }
 }

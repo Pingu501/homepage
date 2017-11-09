@@ -8,7 +8,7 @@ import Emoji from '../../components/atoms/Emoji'
 
 const Hobbies = () => {
   return (
-    <div id="hobbies">
+    <section id="hobbies">
       <Teaser picture={tamburello} text="Hobbies"/>
 
       <Paragraph heading="Tamburello">
@@ -28,7 +28,7 @@ const Hobbies = () => {
       <Paragraph heading="Music">
         I <Emoji emoji="♥️"/>️ music. Listening to it daily and also playing the guitar (learned it by myself)
       </Paragraph>
-    </div>
+    </section>
   )
 }
 
