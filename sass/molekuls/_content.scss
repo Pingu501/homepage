@@ -5,10 +5,11 @@
   max-width: $content-width;
 
   section {
+    padding-top: $header-height - 7px;
     margin-bottom: $spacing-large;
   }
 
-  #stations {
-    padding-top: $header-height;
+  #basic {
+    padding-top: 0;
   }
 }

@@ -95,15 +95,21 @@ tr td {
     justify-content: space-around;
     width: 100%;
     font-size: 51px; }
+  @media (max-width: 560px) {
+    .contact {
+      padding: 0;
+      width: 100%;
+      float: none; } }
 
 .content {
   margin: 0 auto;
   width: 100%;
   max-width: 1200px; }
   .content section {
+    padding-top: 53px;
     margin-bottom: 24px; }
-  .content #stations {
-    padding-top: 60px; }
+  .content #basic {
+    padding-top: 0; }
 
 header {
   display: flex;
@@ -111,6 +117,7 @@ header {
   justify-content: center;
   position: fixed;
   top: 0;
+  left: 0;
   z-index: 8000;
   padding: 12px 0;
   width: 100%;
@@ -125,6 +132,9 @@ nav {
   display: flex;
   width: 100%;
   max-width: 1200px; }
+  @media (max-width: 560px) {
+    nav {
+      justify-content: center; } }
 
 html,
 body {
@@ -135,3 +145,9 @@ body {
 
 .application {
   margin-top: 60px; }
+  @media (min-width: 561px) and (max-width: 1200px) {
+    .application {
+      padding: 12px; } }
+  @media (max-width: 560px) {
+    .application {
+      padding: 12px; } }

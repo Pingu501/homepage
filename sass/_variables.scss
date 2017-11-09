@@ -6,7 +6,7 @@ $header-height: 60px;
 $header-height-scrolled: 30px;
 
 $teaser-height: 30vw;
-$teaser-height-min: 150px;
+$teaser-height-mobile: 200px;
 
 $content-width: 1200px;
 
@@ -16,6 +16,7 @@ $color-grey-dark: darkgray;
 $color-grey-darker: #3c3c3c;
 
 $breakpoints: (
-        phone: '(max-width: 440px)',
-        desktop: '(min-width: 441px)'
+        phone: '(max-width: 560px)',
+        tablet: '(min-width: 561px) and (max-width: 1200px)',
+        desktop: '(min-width: 12001px)'
 );

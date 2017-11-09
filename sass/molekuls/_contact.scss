@@ -17,4 +17,10 @@ $contact-width: 300px;
 
     font-size: ($contact-width / 4) - 2 * $spacing-medium;
   }
+
+  @include mq(phone) {
+    padding: 0;
+    width: 100%;
+    float: none;
+  }
 }

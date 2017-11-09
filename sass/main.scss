@@ -10,7 +10,7 @@
 
 @import "molekuls/teaser";
 
-@import "organisms/contact";
+@import "molekuls/contact";
 @import "molekuls/content";
 @import "organisms/header";
 
@@ -25,4 +25,12 @@ body {
 
 .application {
   margin-top: $header-height;
+
+  @include mq(tablet) {
+    padding: $spacing-medium;
+  }
+
+  @include mq(phone) {
+    padding: $spacing-medium;
+  }
 }

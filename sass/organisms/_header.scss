@@ -5,6 +5,7 @@ header {
 
   position: fixed;
   top: 0;
+  left: 0;
 
   z-index: 8000;
 
@@ -31,4 +32,8 @@ nav {
   display: flex;
   width: 100%;
   max-width: $content-width;
+
+  @include mq(phone) {
+    justify-content: center;
+  }
 }
