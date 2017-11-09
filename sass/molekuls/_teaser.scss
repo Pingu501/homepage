@@ -33,6 +33,12 @@
 
   p {
     padding: $spacing-small;
+
     background-color: whitesmoke;
+
+    color: $color-grey-darker;
+    font-weight: bold;
+
+    opacity: .7;
   }
 }

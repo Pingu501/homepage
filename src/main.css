@@ -79,7 +79,10 @@ tr td {
   font-size: 2em; }
   .teaser__content p {
     padding: 6px;
-    background-color: whitesmoke; }
+    background-color: whitesmoke;
+    color: #3c3c3c;
+    font-weight: bold;
+    opacity: .7; }
 
 .contact {
   padding: 12px;
