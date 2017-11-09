@@ -95,6 +95,14 @@ tr td {
     justify-content: space-around;
     width: 100%;
     font-size: 51px; }
+    .contact .social-list a span {
+      transition: all 200ms; }
+    .contact .social-list a:hover .fa-facebook {
+      color: #3b5998; }
+    .contact .social-list a:hover .fa-twitter {
+      color: #1da1f2; }
+    .contact .social-list a:hover span {
+      color: black; }
   @media (max-width: 560px) {
     .contact {
       padding: 0;
@@ -109,7 +117,7 @@ tr td {
     padding-top: 53px;
     margin-bottom: 24px; }
   .content #basic {
-    padding-top: 0; }
+    margin-top: -60px; }
 
 header {
   display: flex;
@@ -127,6 +135,10 @@ header {
   header.scrolled {
     height: 30px;
     opacity: .8; }
+  @media (max-width: 560px) {
+    header {
+      height: 30px;
+      font-size: .8em; } }
 
 nav {
   display: flex;

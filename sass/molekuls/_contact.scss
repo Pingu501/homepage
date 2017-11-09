@@ -16,6 +16,24 @@ $contact-width: 300px;
     width: 100%;
 
     font-size: ($contact-width / 4) - 2 * $spacing-medium;
+
+    a span {
+      transition: all 200ms;
+    }
+
+    a:hover {
+      .fa-facebook {
+        color: #3b5998;
+      }
+
+      .fa-twitter {
+        color: #1da1f2;
+      }
+
+      span {
+        color: black;
+      }
+    }
   }
 
   @include mq(phone) {

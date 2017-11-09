@@ -23,8 +23,9 @@ header {
     opacity: .8;
   }
 
-  @include mq(mobile) {
-    background-color: red;
+  @include mq(phone) {
+    height: $header-height-scrolled;
+    font-size: .8em;
   }
 }
 
