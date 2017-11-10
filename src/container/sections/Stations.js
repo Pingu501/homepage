@@ -24,7 +24,7 @@ const Stations = () => {
 
   const grammarRight = (
     <div>
-      Bertolt Brecht Grammar School in Dresden <br/>
+      Bertolt Brecht High School in Dresden <br/>
       Got my Abitur there in 2015
     </div>
   )
@@ -37,8 +37,9 @@ const Stations = () => {
 
   const sandstormRight = (
     <div>
+      <a href="https://sandstorm.rocks">Sandstorm Media GmbH</a><br/>
       After school I had 3 months of free time. <br/>
-      I decided to do an internship at <a href="https://sandstorm.rocks">Sandstorm Media GmbH</a> here
+      In this time I decided to do an internship at Sandstorm Media GmbH here
       in Dresden. <br/>
       Since then I'm part of their team and very happy there! <Emoji emoji="♥️"/>
     </div>
@@ -52,8 +53,8 @@ const Stations = () => {
 
   const tuRight = (
     <div>
-      studying computer science <br/>
-      planing to get my diploma in 2020.
+      TU Dresden <br/>
+      Studying computer science and planning to get my diploma in 2020.
     </div>
   )
 

@@ -13,20 +13,18 @@ const Hobbies = () => {
 
       <Paragraph heading="Tamburello">
         This is a very old sport coming from Italy. <br/>
-        I'm an active member since 2009 with 3-4 trainings per week.
-        More here
-        <Link destination="https://tamburellodresden.de" text="here"/>
-        or at our
-        <Link destination="https://tamburello-staging.dokku3.sandstorm-media.de" text="new site"/>
+        I'm an active member since 2009 with 3-4 trainings per week. <Link destination="https://tamburellodresden.de"
+                                                                           text="More here"/> or at our <Link
+        destination="https://tamburello-staging.dokku3.sandstorm-media.de" text="new site"/>.
       </Paragraph>
 
       <Paragraph heading="Coding">
-        Currently my most used language is JS/React to write this page. Also trying to get in touch with groovy
+        At the moment I'm usign React to write this page. Also I'm trying to get in touch with groovy
         and more and more iOS development.
       </Paragraph>
 
       <Paragraph heading="Music">
-        I <Emoji emoji="♥️"/>️ music. Listening to it daily and also playing the guitar (learned it by myself)
+        I <Emoji emoji="♥️"/>️ music. Listening to music every day and also playing the guitar (learned it by myself).
       </Paragraph>
     </section>
   )
