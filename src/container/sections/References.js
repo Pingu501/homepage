@@ -1,7 +1,7 @@
 import React from 'react'
 import Teaser from '../../components/molekuls/Teaser'
 
-import references from '../../images/References.png'
+import references from '../../images/References.jpg'
 import Paragraph from '../../components/molekuls/Paragraph'
 import Link from '../../components/atoms/Link'
 
