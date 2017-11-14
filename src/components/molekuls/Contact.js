@@ -2,7 +2,7 @@ import React from 'react'
 import Icon from './Icon'
 import Image from '../atoms/Image'
 
-import myFace from '../../images/MyFace.jpg'
+import myFace from '../../images/Me_bw_small.jpg'
 
 const Contact = () => {
   return (
