@@ -10,7 +10,7 @@ const References = () => {
     <section id="references">
       <Teaser picture={references} text="References"/>
 
-      <Paragraph heading="www.TamburelloDresden.de" headingIsLink={true}
+      <Paragraph heading="tamburellodresden.de" headingIsLink={true}
                  headingLinkDestination="https://tamburello-staging.dokku3.sandstorm-media.de">
         This was the first real website I ever created. It is the online appearance of my sports club.
         Originally based on Joomla! with a poor design. Started the rewrite with the <Link destination="https://neos.io"
@@ -22,7 +22,7 @@ const References = () => {
         </p>
       </Paragraph>
 
-      <Paragraph heading="www.Mibium.de" headingIsLink={true} headingLinkDestination="https://mibium.de">
+      <Paragraph heading="mibium.de" headingIsLink={true} headingLinkDestination="https://mibium.de">
         This is a online shop for tamburello equipment like bats, balls, and so on.
 
         <p>
@@ -30,7 +30,7 @@ const References = () => {
         </p>
       </Paragraph>
 
-      <Paragraph heading="www.neosfunding.sandstorm.de" headingIsLink={true}
+      <Paragraph heading="neosfunding.sandstorm.de" headingIsLink={true}
                  headingLinkDestination="https://neosfunding.sandstorm.de">
         This is a longtime project I take care of. Sandstorm is a part of the Neos core development team
         and they decided to collect some money for the project.
@@ -41,7 +41,7 @@ const References = () => {
         </p>
       </Paragraph>
 
-      <Paragraph heading="www.exply.io" headingIsLink={true}
+      <Paragraph heading="exply.io" headingIsLink={true}
                  headingLinkDestination="https://exply.io">
         "Exply is a self-service BI and analytics solution that provides you with interactive dashboards, reports and
         data visualisation".
