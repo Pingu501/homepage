@@ -8,11 +8,11 @@ import Contact from '../../components/molekuls/Contact'
 const Basic = () => {
   return (
     <section id="basic">
-      <Teaser picture={dresden} text="Hey, my name is Alex"/>
+      <Teaser picture={dresden} text="Hey, my name is Alex!"/>
 
       <Contact/>
 
-      <Heading size="small">and this is my homepage!</Heading>
+      <Heading size="small">And this is my homepage!</Heading>
 
       <p>
         I was born on November 20th 1996 in Dresden / Saxony / Germany.

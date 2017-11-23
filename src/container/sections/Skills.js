@@ -31,7 +31,7 @@ const Skills = () => {
         Writing only php can get boring so I tried myself in various other languages.
       </p>
 
-      <Heading size="small">php</Heading>
+      <Heading size="small">PHP</Heading>
 
       Many people do not like php, but I do.
       Most of my projects are written in php.
@@ -89,7 +89,7 @@ const Skills = () => {
 
       <Heading size="medium">Technologies & Tools</Heading>
 
-      <Heading size="small">git</Heading>
+      <Heading size="small">Git</Heading>
 
       I'm using git on the console on a daily base and can work good with it.
 
