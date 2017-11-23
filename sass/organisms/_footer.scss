@@ -1,0 +1,20 @@
+footer {
+  position: absolute;
+  display: flex;
+
+  justify-content: center;
+
+  left: 0;
+  right: 0;
+
+  margin: $spacing-large 0 0 0;
+
+  background-color: $color-grey-darker;
+  color: white;
+}
+
+.footer__wrapper {
+  padding: $spacing-large;
+  width: 100%;
+  max-width: 1200px;
+}

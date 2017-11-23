@@ -121,6 +121,21 @@ tr td {
   .content #basic {
     margin-top: -60px; }
 
+footer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  margin: 24px 0 0 0;
+  background-color: #3c3c3c;
+  color: white; }
+
+.footer__wrapper {
+  padding: 24px;
+  width: 100%;
+  max-width: 1200px; }
+
 header {
   display: flex;
   align-items: center;
@@ -152,6 +167,9 @@ nav {
       justify-content: center; } }
   nav a {
     text-decoration: none; }
+
+.legal {
+  margin-top: 120px; }
 
 html,
 body {

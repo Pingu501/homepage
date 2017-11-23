@@ -9,10 +9,12 @@
 @import "atoms/typografie";
 
 @import "molekuls/teaser";
-
 @import "molekuls/contact";
 @import "molekuls/content";
+
+@import "organisms/footer";
 @import "organisms/header";
+@import "organisms/legal";
 
 html,
 body {
