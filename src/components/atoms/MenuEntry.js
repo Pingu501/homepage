@@ -2,11 +2,17 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const MenuEntry = props => {
-  const anker = '/#' + props.name.toLowerCase()
+  const anchorName = props.name.toLowerCase()
+  const anchor = '/#' + anchorName
+
+  const handleMenuClick = event => {
+    event.preventDefault()
+    document.getElementById(anchorName).scrollIntoView({behavior: 'smooth', block: 'start'})
+  }
 
   return (
     <div className="menu-entry">
-      <a href={anker}>
+      <a href={anchor} onClick={handleMenuClick}>
         {props.name}
       </a>
     </div>
