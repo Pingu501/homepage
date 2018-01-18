@@ -11,7 +11,7 @@ const References = () => {
       <Teaser picture={references} text="References"/>
 
       <Paragraph heading="tamburellodresden.de" headingIsLink={true}
-                 headingLinkDestination="https://tamburello-staging.dokku3.sandstorm-media.de">
+                 headingLinkDestination="https://tamburellodresden.de">
         This was the first real website I ever created. It is the online appearance of my sports club.
         Originally based on Joomla! with a poor design. Started the rewrite with the <Link destination="https://neos.io"
                                                                                            text="Neos CMS"/> this year.

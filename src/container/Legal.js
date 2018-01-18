@@ -6,7 +6,8 @@ const Legal = () => {
       <h1>Legal Disclosure</h1>Information in accordance with section 5 TMG<br/><br/>Alexander
       Hesse<br/>Lenbachstra&szlig;e 5<br/>01219 Dresden<br/><h2>Contact</h2>Telephone: +49 1742179506<br/>E-Mail: <a
       href="mailto:alex.hesse@icloud.com">alex.hesse@icloud.com</a><br/>Website: <a href="http://www.pinguin501.net"
-                                                                                    target="_blank">http://www.pinguin501.net</a><br/>
+                                                                                    target="_blank"
+                                                                                    rel="noopener noreferrer">http://www.pinguin501.net</a><br/>
       <h2>Disclaimer</h2>Accountability for content<br/>The contents of our pages have been created with the utmost
       care. However, we cannot guarantee the contents' accuracy, completeness or topicality. According to statutory
       provisions, we are furthermore responsible for our own content on these web pages. In this context, please note
@@ -22,7 +23,8 @@ const Legal = () => {
       the respective owner of the rights. Individual reproductions of a work are allowed only for private use, so must
       not serve either directly or indirectly for earnings. Unauthorized utilization of copyrighted works is
       punishable (&sect; 106 of the copyright law).<br/><br/><i>Quelle: </i><a href="https://www.twigg.de"
-                                                                               target="_blank">https://www.twigg.de/</a><br/><br/>
+                                                                               target="_blank"
+                                                                               rel="noopener noreferrer">https://www.twigg.de/</a><br/><br/>
     </div>
   )
 }
