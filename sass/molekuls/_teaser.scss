@@ -1,6 +1,10 @@
 .teaser__wrapper {
   height: $teaser-height;
   margin-bottom: $spacing-large;
+
+  @include mq(phone) {
+    height: $teaser-height-mobile;
+  }
 }
 
 .teaser {
@@ -10,8 +14,11 @@
   right: 0;
 
   width: 100%;
-
   height: $teaser-height;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 
   img {
     padding: 0;
@@ -19,6 +26,27 @@
 
   .react-parallax-content {
     height: 100%;
+  }
+
+  @include mq(phone) {
+    height: $teaser-height-mobile;
+  }
+
+}
+
+.teaser__parallax {
+  display: block;
+
+  @include mq(phone) {
+    display: none;
+  }
+}
+
+.teaser__mobile {
+  display: none;
+
+  @include mq(phone) {
+    display: block;
   }
 }
 

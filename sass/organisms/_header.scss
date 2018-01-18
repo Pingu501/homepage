@@ -24,7 +24,6 @@ header {
   }
 
   @include mq(phone) {
-    height: $header-height-scrolled;
     font-size: .8em;
   }
 }
