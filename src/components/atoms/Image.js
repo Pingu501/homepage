@@ -11,7 +11,9 @@ const Image = props => {
   )
 
   return (
-    <img src={props.image} className={className} alt={props.alt}/>
+    <figure>
+      <img src={props.image} className={className} alt={props.alt}/>
+    </figure>
   )
 }
 

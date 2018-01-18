@@ -37,8 +37,10 @@ $contact-width: 300px;
   }
 
   @include mq(phone) {
+    display: flex;
+    flex-direction: column;
+    float: none;
     padding: 0;
     width: 100%;
-    float: none;
   }
 }

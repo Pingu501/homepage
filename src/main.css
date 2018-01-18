@@ -1,3 +1,6 @@
+figure {
+  text-align: center; }
+
 img {
   padding: 12px;
   max-width: 100%;
@@ -128,9 +131,11 @@ tr td {
       color: black; }
   @media (max-width: 560px) {
     .contact {
+      display: flex;
+      flex-direction: column;
+      float: none;
       padding: 0;
-      width: 100%;
-      float: none; } }
+      width: 100%; } }
 
 .content {
   margin: 0 auto;
