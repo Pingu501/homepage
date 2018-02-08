@@ -1,0 +1,14 @@
+language: node_js
+env:
+  global:
+  - secure: QiYHn6rHffDCfqhr/Ouph6jKSiYtRZDWzRhDMhxMGSnEB8NaSPdNgFIhiLdmNFD9kPEw30i4xzDXuBM/uaV4dXUVNpwe6l72zpaMWSF7zxAlYnKAOcEVcewy9mj8g3ih1N8ZKwG5Kw3w87wkHuYEQ0BYOYveEjNaEoZ7bK8/wVfUNaxunOklK7cSOpH2TtjrBpBkcij9cPLlXG24ntjeku0ceO8gl9blJz7gufwDpLFXgkyExSslEHcFUdVXTRoLQHJdTGK84djO1m13CzTSjfotRPXQxWA/geXer8xin7X+vtCCUR1rbmg64dFACYcA/Bq1Lv1WdkW1BnC+2uMqSvjy5mZ2hr+hCNFo1q/6bXL62MsFlXUWQkUyePDoYZCXxnYPYNj8Lp8Lhe75SWGGTK3adWQseeu+HNLo0uNH325NiCB1xxaE4g+qxbg/bWfsls41wnv8hOtejKhB7lkvIEV9OKd1oDz+gdrCIMNtX7ZV+t8JbClGhvAJxkEZUFds4Coz4fHiUxVSxki9Z+bw5BKCavLQ2fhAj0bVE9P4gzjJtWNsQWekKbXeRJDcM148DVf2gONnS6zX78LNaFt/pyherbwcN2j2CpiQZ7p4h5xJJs1KOuOxrZF3k3Oql5oJzKNCaxL8iF5PeEn3SWlGZlVX62i0po93cvGnj1Kc0us=
+
+node_js:
+- "8"
+
+script: yarn build
+
+after_success:
+  - tar -cf build.tar build
+  - curl --ftp-create-dirs -T build.tar -u $FTP_USER:$FTP_PASSWORD ftp://ftp.strato.de
+  - curl https://pinguin501.de/untar-build.php
