@@ -6,6 +6,7 @@ import code from '../../images/Code.jpg'
 import Heading from '../../components/atoms/Heading'
 import Emoji from '../../components/atoms/Emoji'
 import Link from '../../components/atoms/Link'
+import Skill from '../../components/molekuls/Skill'
 
 const Skills = () => {
   return (
@@ -31,82 +32,88 @@ const Skills = () => {
         Writing only php can get boring so I tried myself in various other languages.
       </p>
 
-      <Heading size="small">PHP</Heading>
+      <div className="skill__wrapper">
+        <Skill name="php" rating={4}>
+          <p>
+            Many people do not like php, but I do.
+            Most of my projects are written in php.
+          </p>
 
-      Many people do not like php, but I do.
-      Most of my projects are written in php.
+          <p>
+            I tried working with some smaller frameworks and my favorite is by far
+            <Link destination="https://flow.neos.io/" text="Neos/Flow"/> to use the Neos CMS <Emoji emoji="♥️"/>.
+          </p>
+        </Skill>
 
-      <p>
-        I tried working with some smaller frameworks and my favorite is by far
-        <Link destination="https://flow.neos.io/" text="Neos/Flow"/> to use the Neos CMS <Emoji emoji="♥️"/>.
-      </p>
+        <Skill name="Java" rating={3}>
+          In 2016 two of my friends of mine and I held a course in Java for the freshmen of the TU Dresden.
+          In the same semester we had to write a bigger hotel management software as part of a practical
+          training using Spring Framework.
+        </Skill>
 
-      <Heading size="small">Java</Heading>
+        <Skill name="C" rating={2}>
+          Not much to say about it. In the first semester I attended a course and had a practical training using just
+          c to write our own bot for a virtual board game.
+        </Skill>
 
-      In 2016 two of my friends of mine and I held a course in Java for the freshmen of the TU Dresden.
-      In the same semester we had to write a bigger hotel management software as part of a practical
-      training using Spring Framework.
+        <Skill name="Python" rating={4}>
+          In another practical training we had programm a Lego Mindstorm Robot in Python. It hat to follow lines, create
+          an
+          internal map about the area, send this information to a server and receive paths to new points on this area.
+          I often use Python for smaller scripting.
+        </Skill>
 
-      <Heading size="small">C</Heading>
+        <Skill name="JavaScript" rating={4}>
+          <p>
+            JavaScript belongs to the first languages I learned and well ...
+            I still like it! This whole page is written in JS ...
+            Well it is written with React using ECMA Script, but basiclly
+            it is JS! It is used for a lot projects at sandstorm.
+          </p>
 
-      Not much to say about it. In the first semester I attended a course and had a practical training using just
-      c to write our own bot for a virtual board game.
 
-      <Heading size="small">Python</Heading>
+          <p>
+            As I already mentioned this page is written completely in React. I participate in using React to create the
+            new UI of <a href="https://exply.io/en">Exply</a>. A product we offer at sandstorm.
+          </p>
 
-      In another practical training we had programm a Lego Mindstorm Robot in Python. It hat to follow lines, create an
-      internal map about the area, send this information to a server and receive paths to new points on this area.
-      I often use Python for smaller scripting.
+          <p>
+            jQuery was the first library I ever used.
+          </p>
+        </Skill>
 
-      <Heading size="small">JavaScript</Heading>
+        <Skill name="Swift" rating={4}>
+          About a year ago I started writing smaller applications for learning swift.
+        </Skill>
 
-      JavaScript belongs to the first languages I learned and well ...
-      I still like it! This whole page is written in JS ...
-      Well it is written with React using ECMA Script, but basiclly
-      it is JS! It is used for a lot projects at sandstorm.
+        <Skill name="HTML" rating={5}>
+          It is not a programming language, but often needed. I did my first websites with plane HTML.
+        </Skill>
 
-      <p>
-        As I already mentioned this page is written completely in React. I participate in using React to create the
-        new UI of <a href="https://exply.io/en">Exply</a>. A product we offer at sandstorm.
-      </p>
-
-      <p>
-        jQuery was the first library I ever used. At the moment I think pure JS is way better.
-      </p>
-
-      <Heading size="small">Swift</Heading>
-
-      About a year ago I started writing smaller applications for learning swift, mainly using SpriteKit.
-
-      <Heading size="small">HTML</Heading>
-
-      It is not a programming language, but often needed. I did my first websites with plane HTML.
-
-      <Heading size="small">S(CSS)</Heading>
-
-      About two years ago I really hated CSS, now I like it.
-      This page is styled with SCSS (using variables and nested rules).
+        <Skill name="(S)CSS" rating={5}>
+          About two years ago I really hated CSS, now I like it.
+          This page is styled with SCSS (using variables and nested rules).
+        </Skill>
+      </div>
 
       <Heading size="medium">Technologies & Tools</Heading>
 
-      <Heading size="small">Git</Heading>
+      <div className="skill__wrapper">
+        <Skill name="Git" rating={4}>
+          I'm using git on the console on a daily base and can work good with it.
+        </Skill>
 
-      I'm using git on the console on a daily base and can work good with it.
-
-      <Heading size="small">UNIX</Heading>
-
-      Currently I'm working on a MacBook. I do not like using Windows for coding but I still use it for gaming.
-      By using Ubuntu for a couple of months and now a MacBook I learned to love working with the console.
+        <Skill name="UNIX" rating={3}>
+          By using Ubuntu for a couple of months and now a MacBook I learned to love working with the console.
+        </Skill>
+      </div>
 
       <Heading size="medium">Languages</Heading>
 
-      <p>
-        German is my first language.
-      </p>
-
-      <p>
-        Learning english since 2005
-      </p>
+      <div className="skill__wrapper">
+        <Skill name="German" rating={5}/>
+        <Skill name="English" rating={4}/>
+      </div>
 
     </section>
   )
