@@ -6,9 +6,9 @@ const Legal = () => {
     <div className="content legal">
       <h1>Legal Disclosure</h1>Information in accordance with section 5 TMG<br/><br/>Alexander
       Hesse<br/>Lenbachstra&szlig;e 5<br/>01219 Dresden<br/><h2>Contact</h2>Telephone: +49 1742179506<br/>E-Mail: <a
-      href="mailto:alex.hesse@icloud.com">alex.hesse@icloud.com</a><br/>Website: <a href="http://www.pinguin501.net"
+      href="mailto:alex.hesse@icloud.com">alex.hesse@icloud.com</a><br/>Website: <a href="http://www.pinguin501.de"
                                                                                     target="_blank"
-                                                                                    rel="noopener noreferrer">http://www.pinguin501.net</a><br/>
+                                                                                    rel="noopener noreferrer">http://www.pinguin501.de</a><br/>
       <h2>Disclaimer</h2>Accountability for content<br/>The contents of our pages have been created with the utmost
       care. However, we cannot guarantee the contents' accuracy, completeness or topicality. According to statutory
       provisions, we are furthermore responsible for our own content on these web pages. In this context, please note
