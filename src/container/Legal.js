@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Legal = () => {
+  window.scrollTo(0,0)
   return (
     <div className="content legal">
       <h1>Legal Disclosure</h1>Information in accordance with section 5 TMG<br/><br/>Alexander

@@ -31,7 +31,7 @@ class Skill extends React.PureComponent {
 
     for (let i = 1; i <= 5; i++) {
       const content = rating >= i ? '★' : '☆'
-      ratingStars.push(<span>{content}</span>)
+      ratingStars.push(<span key={i}>{content}</span>)
     }
 
     return ratingStars

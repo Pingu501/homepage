@@ -7,7 +7,23 @@ const MenuEntry = props => {
 
   const handleMenuClick = event => {
     event.preventDefault()
-    document.getElementById(anchorName).scrollIntoView({behavior: 'smooth', block: 'start'})
+
+    window.location.href = '/#' + anchorName
+
+    let rect = document.getElementById(anchorName).getBoundingClientRect()
+
+    let counter = 0
+    let repeat = 30
+
+    const scrollInterval = setInterval(function () {
+      if (counter < repeat) {
+        window.scrollTo(0, window.scrollY + (rect.top / repeat))
+
+        counter++
+      } else {
+        clearInterval(scrollInterval)
+      }
+    }, 10)
   }
 
   return (
