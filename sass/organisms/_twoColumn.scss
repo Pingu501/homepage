@@ -1,0 +1,8 @@
+.two-column {
+  display: flex;
+
+  @include mq(phone) {
+    flex-direction: column;
+  }
+}
+

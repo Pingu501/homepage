@@ -23,6 +23,7 @@ a {
   margin: 0 6px; }
 
 table {
+  margin-bottom: 42px;
   border: none;
   border-collapse: collapse; }
 
@@ -40,8 +41,7 @@ tr td {
   text-align: right; }
 
 .heading {
-  margin-top: 12px;
-  margin-bottom: 6px;
+  margin: 12px 0;
   font-weight: bold; }
   .heading a {
     text-decoration: none; }
@@ -50,7 +50,7 @@ tr td {
   font-size: 32px; }
 
 .heading--medium {
-  margin-top: 24px;
+  margin: 24px 0;
   border-bottom: 2px solid #ededed;
   font-size: 24px; }
 
@@ -152,7 +152,17 @@ tr td {
   margin: 20px;
   height: 90px;
   background-color: #f5f5f5;
+  transition: all 200ms;
   border-radius: 8px; }
+  .skill:hover {
+    background-color: gainsboro;
+    transform: scale(1.1); }
+    .skill:hover .skill__name {
+      color: #AEAEAE; }
+    .skill:hover .skill__rating span {
+      color: #5075a6; }
+  .skill.hasContent {
+    cursor: pointer; }
 
 .skill__name {
   margin-top: 12px;
@@ -167,7 +177,8 @@ tr td {
   font-size: 1.5rem;
   text-align: center; }
   .skill__rating span {
-    color: #92AACA; }
+    color: #92AACA;
+    transition: color 200ms; }
 
 .content {
   margin: 0 auto;
@@ -227,6 +238,12 @@ nav {
 
 .legal {
   margin-top: 120px; }
+
+.two-column {
+  display: flex; }
+  @media (max-width: 560px) {
+    .two-column {
+      flex-direction: column; } }
 
 html,
 body {

@@ -1,6 +1,10 @@
 import React from 'react'
-import Paragraph from '../../components/molekuls/Paragraph'
 import Emoji from '../../components/atoms/Emoji'
+import Heading from '../../components/atoms/Heading'
+import Paragraph from '../../components/molekuls/Paragraph'
+import Teaser from '../../components/molekuls/Teaser'
+
+import education from '../../images/Education.jpeg'
 
 const Stations = () => {
 
@@ -29,22 +33,6 @@ const Stations = () => {
     </div>
   )
 
-  const sandstormLeft = (
-    <div>
-      2015 - present
-    </div>
-  )
-
-  const sandstormRight = (
-    <div>
-      <a href="https://sandstorm.rocks">Sandstorm Media GmbH</a><br/>
-      After school I had 3 months of free time. <br/>
-      In this time I decided to do an internship at Sandstorm Media GmbH here
-      in Dresden. <br/>
-      Since then I'm part of their team and very happy there! <Emoji emoji="♥️"/>
-    </div>
-  )
-
   const tuLeft = (
     <div>
       2015 - present
@@ -61,30 +49,36 @@ const Stations = () => {
   return (
     <section id="stations">
 
-      <Paragraph heading="So far">
-        nothing special happened...
-      </Paragraph>
+      <Teaser picture={education} text="Stations"/>
 
-      <table>
-        <tbody>
+      <Heading size="medium">So far</Heading>
+
+      <Paragraph heading="Education">
+        <table>
+          <tbody>
           <tr>
-            <td>{elementaryLeft}</td>
-            <td>{elementaryRight}</td>
+            <td>{tuLeft}</td>
+            <td>{tuRight}</td>
           </tr>
           <tr>
             <td>{grammarLeft}</td>
             <td>{grammarRight}</td>
           </tr>
           <tr>
-            <td>{sandstormLeft}</td>
-            <td>{sandstormRight}</td>
+            <td>{elementaryLeft}</td>
+            <td>{elementaryRight}</td>
           </tr>
-          <tr>
-            <td>{tuLeft}</td>
-            <td>{tuRight}</td>
-          </tr>
-        </tbody>
-      </table>
+          </tbody>
+        </table>
+      </Paragraph>
+
+      <Paragraph heading="Work">
+        <a href="https://sandstorm.rocks">Sandstorm Media GmbH</a><br/>
+        After school I had 3 months of free time. <br/>
+        In this time I decided to do an internship at Sandstorm Media GmbH here
+        in Dresden. <br/>
+        Since then I'm part of their team and very happy there! <Emoji emoji="♥️"/>
+      </Paragraph>
 
     </section>
   )

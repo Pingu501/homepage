@@ -11,8 +11,8 @@ export default class Content extends React.PureComponent {
     return (
       <div className="content">
         <Basic/>
-        <Stations/>
         <Skills/>
+        <Stations/>
         <Hobbies/>
         <References/>
       </div>

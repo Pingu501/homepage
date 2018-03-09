@@ -14,22 +14,21 @@ const Skills = () => {
       <Teaser picture={code} text="My Skills"/>
 
       <p>
-        First programming language I learned back in 2012, was php. We had to do an internship and I decided to
-        go to the Dresden University (TU Dresden). PHP was required so I started learning it.
-        There I wrote an online inventory tool. Learning went quite well and had a lot of fun!
+        The first programming language I learned back in 2012 was php. I did an internship at Dresden
+        University (TU Dresden) where I wrote an online inventory tool. Learning went really well and I had a lot of fun!
       </p>
 
       <p>
-        Coding was so much fun that I started writing a presence manager for my sports club.
+        I acquired a taste for programming and wrote a presence manager for my sports club.
       </p>
 
       <p>
-        Looking back this code was horrible but somehow it worked quite well so from then no one could stop me
-        from producing more and more code!
+        So from then no one could stop me from producing more and more code!
+        Looking back now, this code was horrible but it worked.
       </p>
 
       <p>
-        Writing only php can get boring so I tried myself in various other languages.
+        After a while I got curious about other languages and thought them mostly by myself:
       </p>
 
       <div className="skill__wrapper">
@@ -51,7 +50,7 @@ const Skills = () => {
           training using Spring Framework.
         </Skill>
 
-        <Skill name="C" rating={2}>
+        <Skill name="C" rating={3}>
           Not much to say about it. In the first semester I attended a course and had a practical training using just
           c to write our own bot for a virtual board game.
         </Skill>

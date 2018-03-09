@@ -9,8 +9,7 @@
 }
 
 .heading {
-  margin-top: $spacing-medium;
-  margin-bottom: $spacing-small;
+  margin: $spacing-medium 0;
   font-weight: bold;
 
   a {
@@ -23,7 +22,7 @@
 }
 
 .heading--medium {
-  margin-top: $spacing-large;
+  margin: $spacing-large 0;
   border-bottom: 2px solid $color-grey-light;
   font-size: 24px;
 }
