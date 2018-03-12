@@ -17,8 +17,8 @@ export default class Header extends React.PureComponent {
       <header>
         <nav>
           <MenuEntry name="Basic"/>
-          <MenuEntry name="Stations"/>
           <MenuEntry name="Skills"/>
+          <MenuEntry name="Stations"/>
           <MenuEntry name="Hobbies"/>
           <MenuEntry name="References"/>
         </nav>

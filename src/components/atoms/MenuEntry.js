@@ -7,8 +7,7 @@ const MenuEntry = props => {
 
   const handleMenuClick = event => {
     event.preventDefault()
-
-    window.location.href = '/#' + anchorName
+    event.stopPropagation()
 
     let rect = document.getElementById(anchorName).getBoundingClientRect()
 
@@ -21,6 +20,7 @@ const MenuEntry = props => {
 
         counter++
       } else {
+        window.location.href = '/#' + anchorName
         clearInterval(scrollInterval)
       }
     }, 10)
