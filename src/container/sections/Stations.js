@@ -1,10 +1,10 @@
 import React from 'react'
-import Emoji from '../../components/atoms/Emoji'
 import Heading from '../../components/atoms/Heading'
 import Paragraph from '../../components/molekuls/Paragraph'
 import Teaser from '../../components/molekuls/Teaser'
 
 import education from '../../images/Education.jpeg'
+import Link from '../../components/atoms/Link'
 
 const Stations = () => {
 
@@ -73,11 +73,12 @@ const Stations = () => {
       </Paragraph>
 
       <Paragraph heading="Work">
-        <a href="https://sandstorm.rocks">Sandstorm Media GmbH</a><br/>
-        After school I had 3 months of free time. <br/>
-        In this time I decided to do an internship at Sandstorm Media GmbH here
-        in Dresden. <br/>
-        Since then I'm part of their team and very happy there! <Emoji emoji="♥️"/>
+        After school I decided to do an internship at <Link destination="https://sandstorm.rocks"
+                                                            text="Sandstorm Media GmbH"/> here in Dresden.
+        Sandstorm is a company with strong values using state of the art technology like React and Kubernetes.
+        There I learned how to work with frameworks and library as well as working in a team.<br/>
+        After my internship I decided to work alongside my studies to stay in touch with the more business like live
+        and real used technologies.i
       </Paragraph>
 
     </section>

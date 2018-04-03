@@ -28,7 +28,7 @@
     transform: scale(1.1);
 
     .skill__name {
-      color: $color-grey-medium;
+      color: lighten($color-grey-dark, 40);
     }
 
     .skill__rating span{
@@ -45,6 +45,7 @@
   margin-top: $spacing-medium;
   text-align: center;
   font-size: 1.3em;
+  transition: color 200ms;
 }
 
 .skill__description {

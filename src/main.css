@@ -158,7 +158,7 @@ tr td {
     background-color: gainsboro;
     transform: scale(1.1); }
     .skill:hover .skill__name {
-      color: #AEAEAE; }
+      color: white; }
     .skill:hover .skill__rating span {
       color: #5075a6; }
   .skill.hasContent {
@@ -167,7 +167,8 @@ tr td {
 .skill__name {
   margin-top: 12px;
   text-align: center;
-  font-size: 1.3em; }
+  font-size: 1.3em;
+  transition: color 200ms; }
 
 .skill__description {
   display: none; }

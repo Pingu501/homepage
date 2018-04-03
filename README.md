@@ -34,12 +34,3 @@ To build just run
 ```
 yarn build
 ```
- 
-## TODO's
-
-Well, the content is missing by now  ... and components ... and the redux part ... basically everything ... 
-
-## TBD
-
-- Linter?
-- Host this page at gitHub pages?
